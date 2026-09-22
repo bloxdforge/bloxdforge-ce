@@ -1,0 +1,12 @@
+/* TEAM */
+Project: BloxdForge
+
+/* THANKS */
+Vercel: For hosting and the Next.js framework
+Three.js: For the 3D rendering engine
+Community Contributors: For assets and feedback
+
+/* SITE */
+Last update: 2026/01/14
+Standards: HTML5, CSS, TypeScript
+Components: Next.js, React, TailwindCSS, Zustand, Monaco Editor, Three.js

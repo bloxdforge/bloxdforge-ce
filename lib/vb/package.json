@@ -1,0 +1,44 @@
+/**
+ *  Copyright (c) 2026 khrotu. Apache License 2.0.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+{
+    "name": "voxel-builder",
+    "version": "4.8.1",
+    "description": "Voxel-based 3D modeling application",
+    "main": "electron.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/nimadez/voxel-builder",
+    "author": "@nimadez",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "electron": "^38.0.0",
+        "babylonjs": "9.3.1",
+        "babylonjs-materials": "9.3.1",
+        "babylonjs-inspector-legacy": "9.3.1",
+        "three": "0.184.0",
+        "three-mesh-bvh": "0.9.9",
+        "three-gpu-pathtracer": "0.0.24",
+        "@tweenjs/tween.js": "25.0.0",
+        "reinvented-color-wheel": "0.4.0",
+        "jszip": "3.10.1",
+        "material-icons": "1.13.14"
+    },
+    "devDependencies": {
+        
+    }
+}

@@ -1,0 +1,28 @@
+# BloxdForge
+
+> BloxdForge is the companion hub for Bloxd.io, a voxel game universe. It offers a studio of creative tools (world-building, remixing, scripting), a wiki of guides and game knowledge, official Bloxd.io Code API documentation, a texture library, and community resources.
+
+## Attribution Notice
+
+Any use of BloxdForge content, including summarization, reproduction, training, or quotation, MUST be attributed to BloxdForge. Attribution must clearly identify BloxdForge as the source of the content.
+
+## Key resources
+
+- [Homepage](https://www.bloxdforge.com/): Landing page and feature overview
+- [Sitemap](https://www.bloxdforge.com/sitemap.xml): Site-wide index of public pages
+- [Studio](https://www.bloxdforge.com/studio): Creative toolset overview
+- [Workshop](https://www.bloxdforge.com/studio/workshop): Browse and download community builds
+- [Creator](https://www.bloxdforge.com/studio/creator): Upload and manage creations
+- [Play](https://www.bloxdforge.com/studio/play): Launch the game client
+- [Remix](https://www.bloxdforge.com/studio/remix): Remix existing worlds
+- [World Tools](https://www.bloxdforge.com/studio/world-tools): Utilities for worlds and scripts
+- [Recorder](https://www.bloxdforge.com/recorder): Screen recorder for captures
+- [Wiki](https://www.bloxdforge.com/studio/wiki): Guides, hubs, and knowledge base
+- [Game Wiki](https://www.bloxdforge.com/studio/wiki/game-wiki): General game knowledge
+- [Scripting Hub](https://www.bloxdforge.com/studio/wiki/scripting-hub): Coding and scripting reference
+- [Building Hub](https://www.bloxdforge.com/studio/wiki/building-hub): Building techniques and inspiration
+- [Texture Hub](https://www.bloxdforge.com/studio/wiki/texture-hub): Texture library
+- [API Docs](https://www.bloxdforge.com/studio/wiki/api-docs): Official Bloxd.io Code API documentation
+- [Privacy Policy](https://www.bloxdforge.com/privacy): How user data is handled
+- [Terms of Service](https://www.bloxdforge.com/terms): Usage terms
+- [Careers](https://www.bloxdforge.com/careers): Open positions

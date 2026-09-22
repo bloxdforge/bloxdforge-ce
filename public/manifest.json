@@ -1,0 +1,88 @@
+{
+  "name": "BloxdForge Studio - Bloxd.io Tools & Mods",
+  "short_name": "BloxdForge",
+  "description": "The ultimate utility suite for Bloxd.io. Create texture packs, write scripts with AI, and download community mods. Free browser-based tools for builders and players.",
+  "start_url": "/studio",
+  "scope": "/studio",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff6b39",
+  "orientation": "any",
+  "categories": ["games", "utilities", "entertainment", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "iarc_rating_id": "",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "BloxdForge Studio Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Workshop",
+      "short_name": "Workshop",
+      "description": "Browse community mods and assets",
+      "url": "/studio/workshop",
+      "icons": [{ "src": "/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Texture Creator",
+      "short_name": "Creator",
+      "description": "Create custom texture packs",
+      "url": "/studio/creator",
+      "icons": [{ "src": "/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Wiki & Guides",
+      "short_name": "Wiki",
+      "description": "Learn Bloxd.io strategies",
+      "url": "/studio/wiki",
+      "icons": [{ "src": "/logo.svg", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
