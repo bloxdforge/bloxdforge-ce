@@ -112,6 +112,7 @@ export default function GoodbyeNoticeModal({ isOpen, onClose, requireReadDelay =
             ))}
           </ol>
           <p>As for the future of the website, it will likely remain online for the next 2-3 years. I do plan on making it open-source (after stripping out any sensitive information), so stay tuned for that.</p>
+          <p><strong className="text-white">Update 9/22/2026:</strong> the Community Edition is now live at <a href="https://github.com/bloxdforge/bloxdforge-ce" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-hover">github.com/bloxdforge/bloxdforge-ce</a>. It is licensed under Apache 2.0, minus hosted data, credentials, and some proprietary code. If you want to self-host it or hack on it, that is your starting point.</p>
           <p>I&apos;m grateful to everyone who has used or supported BloxdForge over the years. This has been an incredible chapter of my life, but I&apos;m also ready to move on. Goodbye.</p>
           {requireReadDelay && !canClose && (
             <div className="flex items-center gap-2 text-xs text-text-subtle">
