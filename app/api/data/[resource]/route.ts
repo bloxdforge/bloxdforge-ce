@@ -33,22 +33,25 @@ export async function GET(req: Request, { params }: { params: Promise<{ resource
   const safeResource = resource.replace(/[^a-zA-Z0-9._-]/g, '');
   try {
     const extensions = ['.json', '.txt', ''];
-    let fileBuffer: Buffer | null = null;
+    let fileBytes: Uint8Array<ArrayBuffer> | null = null;
     let contentType = 'application/octet-stream';
     for (const ext of extensions) {
       const testPath = path.join(process.cwd(), 'data', `${safeResource}${ext}`);
       try {
-        fileBuffer = await fs.readFile(testPath);
+        const raw = await fs.readFile(testPath);
+        const ab = new ArrayBuffer(raw.byteLength);
+        new Uint8Array(ab).set(raw);
+        fileBytes = new Uint8Array(ab);
         contentType = ext === '.json' ? 'application/json; charset=utf-8' : ext === '.txt' ? 'text/plain; charset=utf-8' : 'application/octet-stream';
         break;
       } catch {
         continue;
       }
     }
-    if (!fileBuffer) {
+    if (!fileBytes) {
       return new NextResponse('Not found', { status: 404 });
     }
-    return new NextResponse(fileBuffer, {
+    return new NextResponse(fileBytes, {
       headers: {
         'Content-Type': contentType,
         'Cache-Control': 'public, max-age=604800, stale-while-revalidate=2592000',

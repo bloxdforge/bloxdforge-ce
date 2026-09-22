@@ -17,7 +17,6 @@
  */
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Award, Clock, Crown, Image as ImageIcon, X } from "lucide-react";
 import EventShareButton from "@/components/events/EventShareButton";
 import type { EventModalProps } from "@/components/events/studioEvents";
@@ -120,12 +119,12 @@ export default function LogoContestModal({ isOpen, onClose, requireReadDelay = f
           <div className="bg-surface border border-surface-border rounded-xl p-4 space-y-3">
             <p className="text-sm text-text-muted">How to Participate</p>
             <ul className="space-y-2 text-sm">
-              /*! SIMPLIFIED START */
+              {/*! SIMPLIFIED START */}
               <li className="flex gap-2">
                 <span className="text-primary">•</span>
                 Submit a 500x500px square logo.
               </li>
-              /*! SIMPLIFIED END */
+              {/*! SIMPLIFIED END */}
               <li className="flex gap-2">
                 <span className="text-primary">•</span>
                 DM <span className="text-white font-semibold">khrotubutms</span> with your 500x500 logo to submit.

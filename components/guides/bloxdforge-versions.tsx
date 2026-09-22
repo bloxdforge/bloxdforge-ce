@@ -91,9 +91,9 @@ export default function BloxdForgeVersionsGuide() {
           I&apos;m constantly updating BloxdForge. New features, bug fixes, performance improvements, UI refinements - it&apos;s an ongoing process. The modern tech stack makes it easier to iterate quickly, to experiment with new ideas, to respond to what the community needs.
         </p>
         <p className="mb-4">
-          /*! SIMPLIFIED START */
+          {/*! SIMPLIFIED START */}
           Some of what&apos;s coming: better mobile support, more advanced scripting tools, deeper workshop integration, improved AI assistance, and a lot of polish. There&apos;s a long list, and it grows every time someone suggests something I hadn&apos;t thought of.
-          /*! SIMPLIFIED END */
+          {/*! SIMPLIFIED END */}
         </p>
         <p className="mb-4">
           If you&apos;re using BloxdForge, thank you. Seriously. This project started as a tool I wanted for myself, and it&apos;s grown into something much bigger because people like you found it useful. Every piece of feedback, every bug report, every feature request - it all helps shape what this becomes.
